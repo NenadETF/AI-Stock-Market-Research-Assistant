@@ -1,0 +1,76 @@
+﻿{
+    "report_id":  11,
+    "user_id":  1,
+    "username":  "demo_user",
+    "ticker":  "AAPL",
+    "question":  "Does the current market performance, technical momentum, recent news sentiment and anomaly activity support my investment thesis for this stock?",
+    "investment_thesis":  "Long-term growth driven by ecosystem strength, services and recurring revenue.",
+    "model":  "openai/gpt-oss-120b",
+    "data_as_of":  "2026-08-31",
+    "created_at":  "2026-09-10T12:12:05.406978Z",
+    "grounding_validation":  {
+                                 "status":  "PASS",
+                                 "errors":  [
+
+                                            ],
+                                 "warnings":  [
+
+                                              ],
+                                 "checked_report_numbers":  33,
+                                 "source_numeric_values":  319,
+                                 "checked_report_dates":  6,
+                                 "source_dates":  [
+                                                      "1980-12-12",
+                                                      "2026-05-01",
+                                                      "2026-06-08",
+                                                      "2026-06-25",
+                                                      "2026-06-26",
+                                                      "2026-07-31",
+                                                      "2026-08-25",
+                                                      "2026-08-26",
+                                                      "2026-08-27",
+                                                      "2026-08-28",
+                                                      "2026-08-30",
+                                                      "2026-08-31",
+                                                      "2026-09-01"
+                                                  ]
+                             },
+    "report":  {
+                   "ticker":  "AAPL",
+                   "data_as_of":  "2026-09-01",
+                   "executive_summary":  "Apple shows strong recent price appreciation (36.24% 1âyear return) and overall positive performance metrics, but recent daily declines and several highâseverity price anomalies introduce shortâterm risk. The evidence partially aligns with the thesis of longâterm growth driven by ecosystem and recurring revenue, though segmentâlevel data on services is absent.",
+                   "market_analysis":  "On 2026-08-31 the stock closed at 316.85, down 0.89% for the day and -0.89% daily return. The 7âday return is +1.78% while the 30âday return is -2.98%. The 1âyear return is +36.24% and the total period return is +42.23%. Volume is below its 30âday average (volume ratio 0.86). Annualized 30âday volatility is 29.71%. The stock trades 6.83% below its 52âweek high and 39.71% above its 52âweek low.",
+                   "technical_analysis":  "Price is above the 20âday SMA (310.53) and 50âday SMA (312.38) by 2.03% and 1.43% respectively. RSI is neutral at 54.08. MACD is bullish (0.30 vs signal -0.68). Bollinger Bands place price near the upper band (position 0.85). Momentum over 10 days is +3.68%. Trend and RSI signals are neutral.",
+                   "news_analysis":  "In the past 30 days, 120 news items were recorded with a sentiment score of 22.81 (positive share 33.33%, negative share 10.53%). The dominant sentiment is neutral. Recent daily news (2026-09-01) showed a positive dominant sentiment (57.14% positive). Overall news coverage is high.",
+                   "anomaly_analysis":  "Recent anomalies include a highâseverity priceâreturn, volume, openingâgap, and transactions anomaly on 2026-07-31 (down 7.35% with volume ratio 2.05). Additional mediumâseverity volume anomalies occurred on 2026-06-26 and 2026-05-01. A critical anomaly on 2026-06-25 involved price return, volume, range, gap, and transactions. These events indicate periods of abnormal price movement and elevated volatility.",
+                   "thesis_alignment":  {
+                                            "assessment":  "PARTIALLY_SUPPORTS",
+                                            "supporting_evidence":  [
+                                                                        "1âyear price return of +36.24% suggests strong growth.",
+                                                                        "Bullish MACD state and price above both 20âday and 50âday SMAs indicate upward momentum.",
+                                                                        "Positive news sentiment in recent daily coverage (57.14% positive on 2026â09â01)."
+                                                                    ],
+                                            "contradicting_evidence":  [
+                                                                           "Daily price decline on 2026â08â31 (-0.89%) and negative 30âday return (-2.98%).",
+                                                                           "Highâseverity price and volume anomalies in July and June indicate shortâterm downside risk.",
+                                                                           "Neutral overall news sentiment and dominant neutral sentiment in 30âday summary."
+                                                                       ]
+                                        },
+                   "key_catalysts":  [
+                                         "Bullish MACD signal",
+                                         "Price above shortâterm moving averages",
+                                         "Recent positive news sentiment"
+                                     ],
+                   "key_risks":  [
+                                     "Recent highâseverity price and volume anomalies",
+                                     "Negative daily return and recent down day",
+                                     "Elevated shortâterm volatility (29.71% annualized)"
+                                 ],
+                   "data_limitations":  [
+                                            "No segmentâlevel revenue or services data to directly assess ecosystem and recurring revenue strength.",
+                                            "No forwardâlooking guidance or earnings forecasts."
+                                        ],
+                   "conclusion":  "The available data shows strong longâterm price performance and technical momentum that partially support the thesis of sustained growth, but recent price anomalies and shortâterm downside pressure introduce risk. Absence of servicesâspecific metrics limits a full validation of the ecosystemâdriven growth narrative.",
+                   "disclaimer":  "Research information only. Not investment advice."
+               }
+}
